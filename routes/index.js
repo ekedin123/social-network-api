@@ -4,6 +4,6 @@ const apiRoutes = require("./api");
 
 router.use("/api", apiRoutes);
 
-router.use((req, res) => res.send("route not found"));
+router.use((req, res) => res.send("invalid route"));
 
 module.exports = router;
